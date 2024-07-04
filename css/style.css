@@ -1,0 +1,22 @@
+.navbar{
+    padding-right: 2%;
+    background-color: white;
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+}
+
+.separator::before {
+    content: "";
+    display: inline-block;
+    width: 2px; /* Thickness of the line */
+    height: 180px; /* Height of the line */
+    background-color: #F8F8F8; /* Color of the line */
+    margin: 0 10px; /* Space around the line */
+}
+
+li a:hover {
+    background-color: aquamarine;
+}
